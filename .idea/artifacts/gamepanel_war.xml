@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gamepanel:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gamepanel</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gamepanel-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gamepanel:war exploded" />
+    </root>
+  </artifact>
+</component>
